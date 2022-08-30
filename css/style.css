@@ -1,4 +1,11 @@
 /* Common rules */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --bol-bottom_hover:#47adf1 ;
     --bol-editorial: #45abea;
