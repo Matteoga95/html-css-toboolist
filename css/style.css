@@ -1,0 +1,27 @@
+/* Common rules */
+:root {
+    --bol-bottom_hover:#47adf1 ;
+    --bol-editorial: #45abea;
+    --bol-goals: #9c72e4;
+    --bol-recruiting: #64c0a9;
+    --bol-mobile: #f29e33;
+    --bol-website: #d863a1;
+    --bol-sales: #b0c926;
+    --bol-lightgrey: #f6f8f9;
+    --bol-redfalse: #ec746f;
+    --bol-greentrue: #65c0a9;
+  }
+
+  html{
+    font-family: Arial, sans-serif
+  }
+
+  .logo{
+    width: 5%;
+  }
+
+  h1{
+    display: inline;
+    font-size: 5rem;
+    font-weight: bold;
+  }
