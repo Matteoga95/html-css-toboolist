@@ -15,7 +15,9 @@
   }
 
   html{
-    font-family: Arial, sans-serif
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
   }
 
   body{
@@ -23,14 +25,10 @@
   }
 
   /* Utilities */
-.sezione_corpo{
-    background-color: var(--bol-light);
-    padding: 1%;
-    padding-top: 2%;
-    padding-left: 5%;
-    border-radius: 5px;
-}
 
+  .m_top_20{
+    margin-top: 20px;
+  }
 
 
 /* header */
@@ -39,13 +37,13 @@
   }
 
   .logo{
-    width: 5%;
+    width: 4%;
   }
 
   h1{
     display: inline;
-    font-size: 5rem;
     font-weight: bold;
+    vertical-align:top;
   }
 
   /* Main */
@@ -55,6 +53,14 @@
     width: 70%;
   }
 
+
+  .sezione_bottoni{
+    background-color: var(--bol-light);
+    padding: 1%;
+    padding-top: 2%;
+    padding-left: 5%;
+    border-radius: 5px;
+}
   .task_button{
     border-radius: 7px;
     padding: 10px;
@@ -74,4 +80,64 @@
     color: var(--bol-grey);
     font-size: medium;
     font-weight: bold;
+  }
+
+  .sezione_corpo{
+    background-color: var(--bol-light);
+    padding: 5rem;
+    padding-top: 1rem;
+    margin-top: 5px;
+  }
+
+  .arrow_down{
+    font-size: large;
+
+  }
+
+  #circle{
+    margin-left: -30px;
+    font: size large;
+  }
+
+  .true_answer{
+    color: var(--bol-greentrue);
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+  .false_answer{
+    color: var(--bol-redfalse);
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+  .genere{
+    border-radius: 12px;
+    color: var(--bol-light);
+    padding: 9px;
+    font-size: medium;
+  }
+
+  #editorial{
+    background-color: var(--bol-editorial);
+  }
+
+  #goals{
+    background-color: var(--bol-goals);
+  }
+
+  #recruiting{
+    background-color: var(--bol-recruiting);
+  }
+
+  #mobile{
+    background-color: var(--bol-mobile);
+  }
+
+  #sales{
+    background-color: var(--bol-sales);
+  }
+
+  #website{
+    background-color: var(--bol-website);
   }
