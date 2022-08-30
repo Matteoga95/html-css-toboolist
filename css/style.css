@@ -8,12 +8,34 @@
     --bol-website: #d863a1;
     --bol-sales: #b0c926;
     --bol-lightgrey: #f6f8f9;
+    --bol-light: white;
     --bol-redfalse: #ec746f;
     --bol-greentrue: #65c0a9;
+    --bol-grey: #c5cbd0;
   }
 
   html{
     font-family: Arial, sans-serif
+  }
+
+  body{
+    background-color: var(--bol-lightgrey);
+  }
+
+  /* Utilities */
+.sezione_corpo{
+    background-color: var(--bol-light);
+    padding: 1%;
+    padding-top: 2%;
+    padding-left: 5%;
+    border-radius: 5px;
+}
+
+
+
+/* header */
+  #site_header{
+    background-color: white;
   }
 
   .logo{
@@ -23,5 +45,33 @@
   h1{
     display: inline;
     font-size: 5rem;
+    font-weight: bold;
+  }
+
+  /* Main */
+  main{
+    margin: auto;
+    margin-top: 3rem;
+    width: 70%;
+  }
+
+  .task_button{
+    border-radius: 7px;
+    padding: 10px;
+    background-color: var(--bol-bottom_hover);
+    border: none;
+    color: var(--bol-light);
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  .section_button{
+    border-radius: 7px;
+    padding: 10px;
+    background-color: var(--bol-light);
+    border-color: var(--bol-grey);
+    border-style: solid;
+    color: var(--bol-grey);
+    font-size: medium;
     font-weight: bold;
   }
